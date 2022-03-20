@@ -87,7 +87,7 @@ function mostrarClima(datos) {
     
     const nombreCiudad = document.createElement('p');
     nombreCiudad.textContent = name;
-    nombreCiudad.classList.add('font-bold', 'text-2xl');
+    nombreCiudad.classList.add('font-bold', 'text-2xl', 'text-sky-900');
     
     const actual = document.createElement('div');
     actual.classList.add('flex', 'items-center', 'content-center', 'justify-center');
@@ -96,7 +96,7 @@ function mostrarClima(datos) {
     
     const temperatura = document.createElement('div');
     temperatura.innerHTML = `${centrigrados} &#8451`;
-    temperatura.classList.add('flex-auto', 'font-bold', 'text-5xl',);
+    temperatura.classList.add('flex-auto', 'font-bold', 'text-5xl', 'text-sky-900');
     
     const descripcion = document.createElement('p');
     descripcion.textContent = description.toUpperCase();
@@ -108,7 +108,7 @@ function mostrarClima(datos) {
     
     const hum = document.createElement('p');
     hum.innerHTML = `Hum: &#128167; ${humidity} %`;
-    hum.classList.add('text-sm', 'm-1');
+    hum.classList.add('text-sm', 'm-1', 'text-sky-900');
 
     
     // Mostramos en HTML
