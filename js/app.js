@@ -103,7 +103,7 @@ function mostrarClima(datos) {
     descripcion.classList.add('font-bold', 'text-lg', 'text-center', 'text-sky-700');
     
     const tempMaxima = document.createElement('div');
-    tempMaxima.innerHTML = `<b class='text-sky-700 border-y m-2 border-sky-600'>-${min} &#8451  </b> <b class='text-red-700 border-y m-2 border-red-600'>${max}&#8451</b> `;
+    tempMaxima.innerHTML = `<b class='text-sky-700 border-y m-2 border-sky-600'>- ${min} &#8451  </b> <b class='text-red-700 border-y m-2 border-red-600'>+ ${max}&#8451</b> `;
     tempMaxima.classList.add('text-sm', 'm-1', 'text-center');
     
     const hum = document.createElement('p');
